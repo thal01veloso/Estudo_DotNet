@@ -14,8 +14,9 @@ namespace LacosEinteracoes
             sacolao.Add("Laranja");
             sacolao.Add("Couve");
             sacolao.Add("Brocolis");
-            
-            Console.WriteLine(Buscarcomlinqlambda(sacolao, "Laranja"));
+            sacolao.Add("Limão");
+
+            BuscarListacomlinq(sacolao, "l").ForEach(x => Console.WriteLine(x));
             //1ª forma de visualizar uma lista com foreach
             static string Buscarcomforeach(List<string> lista, string filtro)
             {
@@ -39,9 +40,12 @@ namespace LacosEinteracoes
                 return lista.First(x => x.Equals(filtro));
             }
 
-
-
-
+            //4ª forma de visualizar uma lista com lambda que contém
+            static List<string> BuscarListacomlinq(List<string> lista, string filtro)
+            {
+                return (from item in lista where item.Contains(filtro) select item).ToList();
+            }
+            
         }
 
     }
