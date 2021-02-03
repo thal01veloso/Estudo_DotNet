@@ -1,0 +1,13 @@
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\bin\Debug\netcoreapp3.1\LacosEinteracoes.exe
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\bin\Debug\netcoreapp3.1\LacosEinteracoes.deps.json
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\bin\Debug\netcoreapp3.1\LacosEinteracoes.runtimeconfig.json
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\bin\Debug\netcoreapp3.1\LacosEinteracoes.runtimeconfig.dev.json
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\bin\Debug\netcoreapp3.1\LacosEinteracoes.dll
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\bin\Debug\netcoreapp3.1\LacosEinteracoes.pdb
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\obj\Debug\netcoreapp3.1\LacosEinteracoes.csprojAssemblyReference.cache
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\obj\Debug\netcoreapp3.1\LacosEinteracoes.AssemblyInfoInputs.cache
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\obj\Debug\netcoreapp3.1\LacosEinteracoes.AssemblyInfo.cs
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\obj\Debug\netcoreapp3.1\LacosEinteracoes.csproj.CoreCompileInputs.cache
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\obj\Debug\netcoreapp3.1\LacosEinteracoes.dll
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\obj\Debug\netcoreapp3.1\LacosEinteracoes.pdb
+C:\Users\Thales Veloso\Desktop\LacosEinteracoes\LacosEinteracoes\obj\Debug\netcoreapp3.1\LacosEinteracoes.genruntimeconfig.cache
