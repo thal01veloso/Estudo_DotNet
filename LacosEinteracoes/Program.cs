@@ -13,15 +13,27 @@ namespace LacosEinteracoes
             sacolao.Add("Laranja");
             sacolao.Add("Couve");
             sacolao.Add("Brocolis");
-            //1ª forma de visualizar uma lista
-            foreach (var item in sacolao)
+            //1ª forma de visualizar uma lista com foreach
+            Console.WriteLine(Buscarcomforeach(sacolao, "Laranja")); 
+
+             static string Buscarcomforeach(List<string> lista, string filtro)
             {
-                Console.WriteLine(item);
-            };
+                foreach (string item in lista)
+                {
+                    if (item.Equals(filtro))
+                    {
+                        return item;
+                    }
+                }
+                return null;
+            }
+
+
 
 
 
         }
-    }
 
+    }
 }
+
