@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LacosEinteracoes
 {
@@ -14,9 +15,9 @@ namespace LacosEinteracoes
             sacolao.Add("Couve");
             sacolao.Add("Brocolis");
             //1ª forma de visualizar uma lista com foreach
-            Console.WriteLine(Buscarcomforeach(sacolao, "Laranja")); 
+            Console.WriteLine(Buscarcomlinq(sacolao, "Laranja"));
 
-             static string Buscarcomforeach(List<string> lista, string filtro)
+            static string Buscarcomforeach(List<string> lista, string filtro)
             {
                 foreach (string item in lista)
                 {
@@ -27,7 +28,11 @@ namespace LacosEinteracoes
                 }
                 return null;
             }
-
+            static string Buscarcomlinq(List<string> lista, string filtro)
+            {
+                return (from item in lista where item.Equals(filtro) select item).First();
+            }
+            
 
 
 
