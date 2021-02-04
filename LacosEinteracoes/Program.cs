@@ -37,6 +37,7 @@ namespace LacosEinteracoes
             foreach(var item in tabela)
             {
                 Console.WriteLine(item);
+
             }
 
 
